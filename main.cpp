@@ -35,10 +35,6 @@ int main(int argc, char *argv[]) {
     });
 
     tabWidget->addTab(leaderTab, "隊長");
-    //tabWidget->addTab(member1Tab, "組員1");
-    //tabWidget->addTab(member2Tab, "組員2");
-    //tabWidget->addTab(member3Tab, "組員3");
-
     tabWidget->setWindowTitle("example");
     tabWidget->resize(400, 300);
     tabWidget->show();
